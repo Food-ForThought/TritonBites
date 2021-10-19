@@ -15,12 +15,12 @@ Original App Design Project - README Template
 This app will allow for UCSD Students to rate food around San Diego as well as upload pictures.
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category:Lifestyle/social/informational**
+- **Mobile: at UCSD, people order food on a mobile app, we are trying to improve the experience by allowing people to see detailed reviews and get live feedback**
+- **Story: first app to do such a thing**
+- **Market: relevant to essentially every ucsd student and possibly even faculty**
+- **Habit: not addictive but it is habit forming, could be integrated to people's daily routine**
+- **Scope: there is a lot of potential for further work and functionality but the current idea and required stories are still quite valuable. Quite clearly defined goals but lot of potential for future work**
 
 ## Product Spec
 
@@ -28,39 +28,47 @@ This app will allow for UCSD Students to rate food around San Diego as well as u
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* user should be able to take and upload picture 
+* Users should be able to see different food items
+* Users should be able to review the food items
+* User should be able to take and upload picture 
+* Show the username and creation time for each post
+* The current signed in user is persisted across app restarts
+* User can log in and log out of his or her account 
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User should be allowed to upvote other's ratings as a sign of agreement in opinion 
+* User can open the app offline and see last loaded
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
+* [Show all Dining Halls/Restaurants]
+   * [Activity main which is what opens when u first open the app will be a list of all the restaurants with their picture]
+   * []
+* [Posts by people]
+   * [[there will be a explore page with all the posts where you have the option to filter by restaurant]]
    * ...
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Home Feed
+* Post new Review
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Login
+   * Home
+* Register
+   * Welcome Pop-up/Toast
+   * Home
+* Home
+    * Dining Hall Details
+    * Personalized Feed
+    * Post new Review
+* Review Details
+    * Related Reviews
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
