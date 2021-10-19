@@ -1,4 +1,4 @@
-Original App Design Project - README Template
+CodePath App Design Project - README Template
 ===
 
 # Triton Bites
@@ -15,12 +15,12 @@ Original App Design Project - README Template
 This app will allow for UCSD Students to rate food around San Diego as well as upload pictures.
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:Lifestyle/social/informational**
-- **Mobile: at UCSD, people order food on a mobile app, we are trying to improve the experience by allowing people to see detailed reviews and get live feedback**
-- **Story: first app to do such a thing**
-- **Market: relevant to essentially every ucsd student and possibly even faculty**
-- **Habit: not addictive but it is habit forming, could be integrated to people's daily routine**
-- **Scope: there is a lot of potential for further work and functionality but the current idea and required stories are still quite valuable. Quite clearly defined goals but lot of potential for future work**
+- **Category: Lifestyle/social/informational**
+- **Mobile: At UCSD, people order food on the mobile app, MobileOrder. We are trying to improve the experience by allowing people to create and read reviews of the different food items, both from dining halls and restaurants. In addition, there may be some functionality that allows users to get live feedback on things such as availability and how many people are there.**
+- **Story: This is the first app to do such a thing at UCSD.**
+- **Market: This app is relevant to essentially every ucsd student and possibly even faculty who may want to see some opinions or even pictures of food before trying it.**
+- **Habit: This app doesn't seem to have addictive features, but it is habit forming since users could check the reviews before ordering food daily.**
+- **Scope: There is a lot of potential for further work and functionality beyond just food reviews, but the current idea and required stories are still quite valuable. We have clearly defined goals in regards to the food review aspect, but there is a lot of potential for future work regarding information that can be done.**
 
 ## Product Spec
 
@@ -30,15 +30,16 @@ This app will allow for UCSD Students to rate food around San Diego as well as u
 
 * Users should be able to see different food items
 * Users should be able to review the food items
-* User should be able to take and upload picture 
-* Show the username and creation time for each post
-* The current signed in user is persisted across app restarts
-* User can log in and log out of his or her account 
+* Users should be able to take and upload pictures of the food 
+* The app should show the username and creation time for each post
+* Login information should be persisited through the app.
+* User can log in and log out of their account. 
 
 **Optional Nice-to-have Stories**
 
-* User should be allowed to upvote other's ratings as a sign of agreement in opinion 
-* User can open the app offline and see last loaded
+* Users should be allowed to upvote other's ratings as a sign of agreement in opinion.
+* Users can open the app offline and see last loaded.
+* Users can leave 'live' feedback to know things like current occupancy status.
 
 ### 2. Screen Archetypes
 
