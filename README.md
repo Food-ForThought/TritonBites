@@ -44,10 +44,10 @@ This app will allow for UCSD Students to rate food around San Diego as well as u
 ### 2. Screen Archetypes
 
 * [Show all Dining Halls/Restaurants]
-   * [Activity main which is what opens when u first open the app will be a list of all the restaurants with their picture]
+   * [Activity main which is what opens when you first open the app will be a list of all the restaurants with their picture]
    * []
 * [Posts by people]
-   * [[there will be a explore page with all the posts where you have the option to filter by restaurant]]
+   * [[There will be a explore page with all the posts where you have the option to filter by restaurant]]
    * ...
 
 ### 3. Navigation
