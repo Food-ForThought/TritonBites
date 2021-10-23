@@ -43,12 +43,26 @@ This app will allow for UCSD Students to rate food around San Diego as well as u
 
 ### 2. Screen Archetypes
 
+* [Login]
+   * [Users should be able to login with their UCSD student account]
+* [Home]
+   * [Users can search for dining halls/restaurants]
+   * [Users can view popular and nearby dining halls/restaurants]
 * [Show all Dining Halls/Restaurants]
-   * [Activity main which is what opens when you first open the app will be a list of all the restaurants with their picture]
-   * []
-* [Posts by people]
-   * [[There will be a explore page with all the posts where you have the option to filter by restaurant]]
-   * ...
+   * [Users should be able to see the dining halls/restaurants sorted with filters]
+   * [Users can see the dining hall/restaurant ratings and proximity]
+* [Restaurant Details]
+   * [Users should be able to tap a button to write a review]
+   * [Users should be able to check-in to the restaurant]
+   * [Users should be able to "save" the restaurant, for quick access in the future]
+   * [Users should be able to see popular dishes and the full menu]
+* [Food Details]
+   * [Users should be able read reviews on specific food items]
+   * [Users should be able to view images, average ratings, and item description]
+* [Create Review]
+   * [Users can write a review and rate the food]
+   * [Users can take a picture of the food for the review]
+   * [Users receive a "thank you" pop-up after submitting a reivew]
 
 ### 3. Navigation
 
