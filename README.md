@@ -94,10 +94,69 @@ This app will allow for UCSD Students to rate food around San Diego as well as u
 ### [BONUS] Interactive Prototype
 
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+
+- Review:
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user review (default field) 
+   | user          | Pointer to User| user who wrote the review 
+   | rating        | File     | stars out of 5
+   | food review image         | File     | image that user posts 
+   | review text   | String   | text from user review |
+   | upvote        | Number   | number of upvotes for the review 
+   | downvote      | Number   | number of downvotes for the review 
+   | createdAt     | DateTime | date when review is created (default field) |
+   
+- Food:
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user review (default field) 
+   | restaurant          | Pointer to Restaurant | restaurant where food can be found
+   | food image         | File     | image that user posts 
+   | food description        | String   | number of upvotes for the review 
+
+   
+- Restaurant:
+
+   | Property      | Type     | Description |
+   | ------------- | -------- | ------------|
+   | objectId      | String   | unique id for the user review (default field) 
+   | restaurant          | String | name of the restaurant
+   | description   | String   | resaurant description |
+   | location    | MapObject | location of the restaurant |
+   
+   
+   
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+#### List of network requests by screen
+   - Login Screen
+       - (Read/GET) Query for Google login
+   - Home Feed Screen
+      - (Read/GET) Query for all restaurants or food.
+      - (Read/GET) Query for popular restaurants.
+      - (Read/GET) Query for nearby restaurants.
+   - Restaurant Screen
+       - (Read/GET) Query for filtered restaurants.
+   - Restaurant Detail Screen
+       - (Read/GET) Query for opening and closing time.
+       - (Read/GET) Query for check-ins.
+       - (Read/GET) Query for restaurant rating.
+       - (Create/POST) Create a new review object.
+       - (Read/GET) Query for popular food items.
+       - (Read/GET) Query for all food items.
+   - Create Review Screen
+      - (Create/POST) Create a new review object.
+      - (Create/POST) Create a new upvote on a post.
+      - (Delete) Delete existing upvote.
+      - (Create/POST) Create a new downvote on a post.
+      - (Delete) Delete existing downvote.
+   - Food Detail Screen
+       - (Read/GET) Query for food name.
+       - (Read/GET) Query for food image.
+       - (Create/POST) Create taste rating.
+       - (Create/POST) Create time rating.
+       - (Create/POST) Create value rating.
+       - (Read/GET) Query for reviews.
