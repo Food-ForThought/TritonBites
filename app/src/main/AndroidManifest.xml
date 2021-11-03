@@ -12,7 +12,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TritonBites">
         <activity
-            android:name="com.example.tritonbites.fragments.MainActivity"
+            android:name="com.example.tritonbites.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
