@@ -27,7 +27,7 @@ This app will allow for UCSD Students to rate food around San Diego as well as u
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
-
+* [x] Each screen will have a User Interface with navigational buttons and display widgets
 * [] Users should be able to see different food items
 * [] Users should be able to review the food items
 * [] Users should be able to take and upload pictures of the food 
@@ -160,3 +160,11 @@ This app will allow for UCSD Students to rate food around San Diego as well as u
        - (Create/POST) Create time rating.
        - (Create/POST) Create value rating.
        - (Read/GET) Query for reviews.
+
+Milestone 1 Gif:
+
+<img src="milestone1.gif" width=500><br>
+
+Part of Milestone 1 Layout Image - No gif due to technical difficulties:
+
+<img src="part_of_milestone1.jpg" width=500><br>
