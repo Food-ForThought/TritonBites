@@ -28,18 +28,18 @@ This app will allow for UCSD Students to rate food around San Diego as well as u
 
 **Required Must-have Stories**
 
-* Users should be able to see different food items
-* Users should be able to review the food items
-* Users should be able to take and upload pictures of the food 
-* The app should show the username and creation time for each post
-* Login information should be persisited through the app.
-* User can log in and log out of their account. 
+* [] Users should be able to see different food items
+* [] Users should be able to review the food items
+* [] Users should be able to take and upload pictures of the food 
+* [] The app should show the username and creation time for each post
+* [] Login information should be persisited through the app.
+* [] User can log in and log out of their account. 
 
 **Optional Nice-to-have Stories**
 
-* Users should be allowed to upvote other's ratings as a sign of agreement in opinion.
-* Users can open the app offline and see last loaded.
-* Users can leave 'live' feedback to know things like current occupancy status.
+* [] Users should be allowed to upvote other's ratings as a sign of agreement in opinion.
+* [] Users can open the app offline and see last loaded.
+* [] Users can leave 'live' feedback to know things like current occupancy status.
 
 ### 2. Screen Archetypes
 
