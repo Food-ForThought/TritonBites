@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context=".fragments.RestaurantViewFragment">
 
     <ImageView
@@ -107,3 +108,6 @@
         android:text="TextView" />
 
 </RelativeLayout>
+=======
+    tools:context=".fragments.RestaurantViewFragment"/>
+>>>>>>> ac85651713ecf879195efa64250377951cbcdb1d
