@@ -1,14 +1,121 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ivFood"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".fragments.FoodDetailFragment">
+    tools:context=".MainActivity">
 
-    <!-- TODO: Update blank fragment layout -->
     <TextView
+        android:id="@+id/tvFoodName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:text="Food Name" />
+
+    <ImageView
+        android:id="@+id/ivFoodItem"
+        android:layout_width="match_parent"
+        android:layout_height="164dp"
+        android:layout_below="@+id/tvFoodName"
+        android:layout_marginTop="7dp"
+        tools:src="@tools:sample/backgrounds/scenic" />
+
+    <TextView
+        android:id="@+id/tvStarTaste"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivFoodItem"
+        android:layout_marginTop="12dp"
+        android:rotationY="0"
+        android:text="Taste"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvStarTime"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvStarTaste"
+        android:layout_marginTop="23dp"
+        android:rotationY="0"
+        android:text="Time"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/tvStarValue"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvStarTime"
+        android:layout_marginTop="21dp"
+        android:rotationY="0"
+        android:text="Value"
+        android:textAlignment="center"
+        android:textSize="25sp" />
+
+    <RatingBar
+        android:id="@+id/rbTaste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivFoodItem"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toEndOf="@+id/tvStarTaste"
+        android:numStars="5"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <RatingBar
+        android:id="@+id/rbTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rbTaste"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/tvStarTime"
+        android:numStars="5"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <RatingBar
+        android:id="@+id/rbValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rbTime"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="0dp"
+        android:layout_toEndOf="@+id/tvStarValue"
+        android:numStars="5"
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/tvFoodDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rbValue"
+        android:layout_marginTop="10dp"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:text="Food Description" />
+
+    <TextView
+        android:id="@+id/tvReview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvFoodDescription"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="Reviews:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvReviews"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_below="@+id/tvReview"
+        android:layout_marginTop="5dp" />
 
-</FrameLayout>
+</RelativeLayout>
