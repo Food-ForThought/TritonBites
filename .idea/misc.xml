@@ -3,24 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/CS Stuff/Android_Studio_Projects/TritonBites/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
-        <entry key="..\:/CS Stuff/Android_Studio_Projects/TritonBites/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
-        <entry key="..\:/CS Stuff/Android_Studio_Projects/TritonBites/app/src/main/res/layout/detail_food.xml" value="0.25416666666666665" />
-        <entry key="..\:/CS Stuff/Android_Studio_Projects/TritonBites/app/src/main/res/layout/detail_restaurant.xml" value="0.25416666666666665" />
-        <entry key="..\:/CS Stuff/Android_Studio_Projects/TritonBites/app/src/main/res/layout/fragment_create_review.xml" value="0.25416666666666665" />
-        <entry key="..\:/CS Stuff/Android_Studio_Projects/TritonBites/app/src/main/res/layout/fragment_food_detail.xml" value="0.25416666666666665" />
-        <entry key="..\:/CS Stuff/Android_Studio_Projects/TritonBites/app/src/main/res/layout/fragment_restaurant_detail.xml" value="0.25416666666666665" />
-        <entry key="..\:/CS Stuff/Android_Studio_Projects/TritonBites/app/src/main/res/layout/fragment_restaurant_view.xml" value="0.24010416666666667" />
-        <entry key="..\:/CS Stuff/Android_Studio_Projects/TritonBites/app/src/main/res/layout/review_create.xml" value="0.25416666666666665" />
-        <entry key="..\:/CS Stuff/Android_Studio_Projects/TritonBites/app/src/main/res/layout/view_restaurant.xml" value="0.25416666666666665" />
-        <entry key="..\:/CS Stuff/Android_Studio_Projects/TritonBites/app/src/main/res/menu/menu_main.xml" value="0.264" />
+        <entry key="..\:/Users/hanng/Desktop/codepath/TritonBites/app/src/main/res/layout/fragment_restaurant_view.xml" value="0.25" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.2907608695652174" />
+      </ProjectState>
+    </option>
   </component>
 </project>

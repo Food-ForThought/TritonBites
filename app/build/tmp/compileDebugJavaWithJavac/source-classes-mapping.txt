@@ -1,18 +1,12 @@
+com/example/tritonbites/LoginActvity.java
+ com.example.tritonbites.LoginActvity
 com/example/tritonbites/fragments/RestaurantDetailFragment.java
  com.example.tritonbites.fragments.RestaurantDetailFragment
 com/example/tritonbites/fragments/RestaurantViewFragment.java
  com.example.tritonbites.fragments.RestaurantViewFragment
 com/example/tritonbites/fragments/CreateReviewFragment.java
  com.example.tritonbites.fragments.CreateReviewFragment
-com/example/tritonbites/Login.java
- com.example.tritonbites.Login
- com.example.tritonbites.Login$1
- com.example.tritonbites.Login$2
- com.example.tritonbites.Login$3
 com/example/tritonbites/fragments/FoodDetailFragment.java
  com.example.tritonbites.fragments.FoodDetailFragment
 com/example/tritonbites/BuildConfig.java
  com.example.tritonbites.BuildConfig
-com/example/tritonbites/MainActivity.java
- com.example.tritonbites.MainActivity
- com.example.tritonbites.MainActivity$1
