@@ -49,7 +49,7 @@ public class Login extends AppCompatActivity {
         GoogleSignInAccount signInAccount = GoogleSignIn.getLastSignedInAccount(this);
 
         if (signInAccount != null || firebaseAuth.getCurrentUser() != null){
-            startActivity(new Intent(this, MainActivity.class));
+            goMainActivity();
         }
 
         signIn.setOnClickListener(new View.OnClickListener(){
@@ -92,5 +92,11 @@ public class Login extends AppCompatActivity {
                 e.printStackTrace();
             }
         }
+    }
+
+    private void goMainActivity() {
+        Intent i = new Intent(this, MainActivity.class);
+        startActivity(i);
+        finish();
     }
 }

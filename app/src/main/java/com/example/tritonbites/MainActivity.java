@@ -12,7 +12,7 @@ import com.example.tritonbites.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
-    /*
+
 
     public static final String TAG = "MainActivity";
 
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-                Fragment fragment;
+                Fragment fragment = new Fragment();
                 switch (menuItem.getItemId()) {
                     // TODO: Set to proper fragment
                     case R.id.action_home:
@@ -44,12 +44,12 @@ public class MainActivity extends AppCompatActivity {
                         //fragment = new ProfileFragment();
                         break;
                 }
-                fragmentManager.beginTransaction().replace(R.id.flContainer, fragment).commit();
+                //fragmentManager.beginTransaction().replace(R.id.flContainer, fragment).commit();
                 return true;
             }
         });
         // TODO: Set default selection to login
         //bottomNavigationView.setSelectedItemId(R.id.action_home);
     }
-     */
+
 }
