@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -33,7 +34,8 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="50dp"
         android:layout_marginTop="400dp"
-        android:text="Picture" />
+        app:icon="@android:drawable/ic_menu_camera"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/btCheckIn"
@@ -42,9 +44,11 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="400dp"
-        android:layout_marginEnd="160dp"
-        android:text="CheckIn" />
+        android:layout_marginTop="402dp"
+        android:layout_marginEnd="170dp"
+        app:icon="@android:drawable/checkbox_on_background"
+        app:iconPadding="0dp"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/btFavorite"
@@ -55,6 +59,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="262dp"
         android:layout_marginTop="400dp"
-        android:text="Favorite" />
+        app:icon="@android:drawable/btn_star_big_on"
+        tools:ignore="SpeakableTextPresentCheck" />
 
 </RelativeLayout>
