@@ -5,20 +5,23 @@ import android.os.Bundle;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
-import androidx.recyclerview.widget.RecyclerView;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
+import com.example.tritonbites.MainActivity;
 import com.example.tritonbites.R;
 
 public class FoodDetailFragment extends Fragment
 {
-    public static final String TAG = "Food Detail Fragment";
+    public static final String TAG = "FoodDetailFragment";
 
     private TextView tvFoodName;
     private ImageView ivFoodItem;
@@ -28,9 +31,7 @@ public class FoodDetailFragment extends Fragment
     private TextView tvStarTaste;
     private TextView tvStarTime;
     private TextView tvStarValue;
-    private TextView tvFoodDescription;
-    private TextView tvReviews;
-    //private RecyclerView rvReviews;
+    private Button btnReview;
 
     public FoodDetailFragment(){}
 
@@ -53,9 +54,19 @@ public class FoodDetailFragment extends Fragment
         tvStarTaste = view.findViewById(R.id.tvStarTaste);
         tvStarTime = view.findViewById(R.id.tvStarTime);
         tvStarValue = view.findViewById(R.id.tvStarValue);
-        tvFoodDescription = view.findViewById(R.id.tvFoodDescription);
-        tvReviews = view.findViewById(R.id.tvReview);
-        //rvReviews = view.findViewById(R.id.rvReviews);
+        btnReview = view.findViewById(R.id.btnReview);
+
+        btnReview.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                FragmentManager fragmentManager2 = getFragmentManager();
+                FragmentTransaction fragmentTransaction2 = fragmentManager2.beginTransaction();
+                fragmentTransaction2.addToBackStack("xyz")
+                        .hide(FoodDetailFragment.this).
+                        add(android.R.id.content, new FoodReviewFragment()).
+                        commit();
+            }
+        });
     }
 
 }
