@@ -2,4 +2,12 @@
     <string name="app_name">TritonBites</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    
+    <string name="sort_options"></string>
+        <string-array name="options_array">
+            <item>Vegetarian</item>
+            <item>Vegan</item>
+            <item>Kosher</item>
+            <item>Halal</item>
+        </string-array>
 </resources>
