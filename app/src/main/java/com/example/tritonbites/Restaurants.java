@@ -9,7 +9,7 @@ import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-@ParseClassName("Restaurant")
+@ParseClassName("Restraunt")
 public class Restaurants extends ParseObject {
     public static final String KEY_RESTAURANT = "restaurant";
 
