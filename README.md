@@ -32,7 +32,7 @@ This app will allow for UCSD Students to rate food around San Diego as well as u
 * [] Users should be able to review the food items
 * [] Users should be able to take and upload pictures of the food 
 * [x] The app should show the username and creation time for each post
-* [] Login information should be persisited through the app.
+* [x] Login information should be persisited through the app.
 * [x] User can log in and log out of their account. 
 
 **Optional Nice-to-have Stories**
@@ -174,3 +174,7 @@ Milestone 2 Gif:
 <img src="FoodDetail_ReviewWalkthrough.gif" width=500><br>
 
 <img src="xqQTLMc.mp4" width=500><br>
+
+Milestone 4 Gif:
+
+<img src="milestone4.gif" width=500><br>
