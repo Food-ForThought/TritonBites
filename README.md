@@ -1,4 +1,4 @@
-CodePath App Design Project - README Template
+CodePath App Design Project 
 ===
 
 # Triton Bites
