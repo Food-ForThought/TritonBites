@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvPlace"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="45dp"
+        android:textSize="28sp"
+        tools:text="College/Place" />
+
+    <TextView
+        android:id="@+id/tvRestaurant"
+        android:layout_width="165dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tvPlace"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="1dp"
+        android:clickable="true"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:text="Restaurant" />
+
+    <TextView
+        android:id="@+id/tvRestaurant2"
+        android:layout_width="165dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tvRestaurant"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="-4dp"
+        android:clickable="true"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:text="Restaurant2" />
+
+    <TextView
+        android:id="@+id/tvRestaurant3"
+        android:layout_width="165dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tvRestaurant2"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="2dp"
+        android:clickable="true"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        tools:text="Restaurant3" />
+
+    <RatingBar
+        android:id="@+id/resRatingBar"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:layout_width="240dp"
+        android:layout_height="49dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@+id/tvRestaurant"
+        android:numStars="5"
+        android:rating="4" />
+
+    <RatingBar
+        android:id="@+id/resRatingBar2"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:layout_width="243dp"
+        android:layout_height="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="0dp"
+        android:layout_toEndOf="@+id/tvRestaurant2"
+        android:numStars="5"
+        android:rating="3" />
+
+    <RatingBar
+        android:id="@+id/resRatingBar3"
+        style="@style/Widget.AppCompat.RatingBar.Indicator"
+        android:layout_width="239dp"
+        android:layout_height="51dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="181dp"
+        android:layout_marginEnd="2dp"
+        android:layout_toEndOf="@+id/tvRestaurant3"
+        android:numStars="5"
+        android:rating="2" />
+</RelativeLayout>
