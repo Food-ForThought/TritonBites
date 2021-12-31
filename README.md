@@ -88,6 +88,7 @@ This app will allow for UCSD Students to rate food around San Diego as well as u
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
 <img src="navigation_flows.jpeg" width=600>
+<img src="TritonBitesWireframe.png" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
