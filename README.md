@@ -23,13 +23,13 @@ TritonBites is a Android app developed in Java that will allow for UCSD Students
 ### 1. User Stories (Required and Optional)
 
 **Required Must-have Stories**
-* [x] Each screen will have a User Interface with navigational buttons and display widgets
+* [] Each screen will have a User Interface with navigational buttons and display widgets
 * [] Users should be able to see different food items
 * [] Users should be able to review the food items
 * [] Users should be able to take and upload pictures of the food 
-* [x] The app should show the username and creation time for each post
-* [x] Login information should be persisited through the app.
-* [x] User can log in and log out of their account. 
+* [] The app should show the username and creation time for each post
+* [] Login information should be persisited through the app.
+* [] User can log in and log out of their account. 
 
 **Optional Nice-to-have Stories**
 
