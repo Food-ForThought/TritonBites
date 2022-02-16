@@ -1,6 +1,3 @@
-CodePath App Design Project 
-===
-
 # Triton Bites
 
 ## Table of Contents
@@ -11,8 +8,7 @@ CodePath App Design Project
 
 ## Overview
 ### Description
-[Description of your app]
-This app will allow for UCSD Students to rate food around San Diego as well as upload pictures.
+TritonBites is a Android app developed in Java that will allow for UCSD Students to create reviews for food both on campus and around San Diego.
 ### App Evaluation
 [Evaluation of your app across the following attributes]
 - **Category: Lifestyle/social/informational**
